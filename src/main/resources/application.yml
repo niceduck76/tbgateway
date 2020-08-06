@@ -75,8 +75,8 @@ spring:
           uri: http://mypage:8080
           predicates:
             - Path= /orderViews/**, /salesViews/**
-        - id: tbMarketings
-          uri: http://tbMarketings:8080
+        - id: tbMarketing
+          uri: http://tbMarketing:8080
           predicates:
             - Path=/tbMarketings/**
         - id: tbMarketingBoard
